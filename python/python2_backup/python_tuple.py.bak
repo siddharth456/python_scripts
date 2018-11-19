@@ -1,0 +1,7 @@
+
+duple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+cist = [ 'abcd', 786 , 2.23, 'john', 70.2 , '13+4i'  ]
+#tuple[2] = 1000    # Invalid syntax with tuple
+cist[2] = 1000     # Valid syntax with list
+print cist
+print duple

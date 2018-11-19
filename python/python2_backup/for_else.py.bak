@@ -1,0 +1,9 @@
+# testing 'else' with for loop
+
+for letter in 'printer':
+   if (letter=='z'):
+     print "hello"
+else:
+      for letter in 'printer':
+         if (letter=='i'):
+           print "bye"

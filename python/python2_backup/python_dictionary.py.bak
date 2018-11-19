@@ -1,0 +1,20 @@
+#!/usr/bin/python
+
+dict={}
+dict['one'] = 'This is one'
+dict[2]     = 'This is two'
+
+tinydict = {'Name':'John','id':6734,'dept':'sales'}
+
+print dict
+print tinydict
+print dict[2]
+print tinydict.keys()
+print tinydict.values()
+
+tinydict['global'] = 'yes'
+
+print tinydict
+x=str(8)
+print x
+
